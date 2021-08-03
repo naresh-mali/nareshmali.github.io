@@ -1,0 +1,25 @@
+{
+    "name": "nareshmali.github.io",
+    "version": "1.0.0",
+    "description": "My Portfolio",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https:/https://github.com/naresh-mali/nareshmali.github.io.git"
+    },
+    "author": "Ekansh Jain",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.20"
+    }
+}
